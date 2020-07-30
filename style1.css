@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+body {
+    /* margin dan padding :0 untuk menghilangkan semua efek margin ataupun padding */
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    align-items: center;
+    background-color: #b9d9eb;
+}
+
+header {
+    background-color: #b9d9eb;
+    /* display:flex untuk memecah bagian header menjadi 2 */
+    display: flex;
+    border-bottom: 5px solid black;
+    /* untuk mengatur agar header tetap muncul saat scrolling */
+    position: sticky;
+    top: 0;
+    /*  */
+}
+
+.logo {
+    /* flex-basis: 30% untuk menentukan lebar logo sebesar 30% dari lebar layar*/
+    flex-basis: 30%;
+}
+
+.logo p {
+    text-align: center;
+}
+
+nav {
+    /* flex-basis: 70% untuk menentukan lebar logo sebesar 70% dari lebar layar */
+    flex-basis: 70%;
+}
+
+nav li {
+    /* display: inline untuk membuat list navigasi menjadi kesamping */
+    display: inline;
+    margin-right: 20%;
+    text-align: center;
+    color: black;
+}
+
+nav li a {
+    /*text-decoration:none digunakan untuk menghilangkan garis bawah pada menu  */
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+}
+
+
+/* a:hover digunakan jika mouse di arahkan ke menu maka menu berubah warna */
+
+a:hover {
+    color: red;
+}
+
+main {
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content1 {
+    background-color: white;
+    text-align: center;
+    padding: 3em;
+}
+
+.art1 {
+    color: black;
+}
+
+.art1 p {
+    padding: 0 10em;
+}
+
+.profile {
+    border: 1px solid black;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 100%;
+}
+
+.content2 {
+    text-align: center;
+    padding: 0 10em;
+}
+
+.art2 {
+    /* padding: 0 10em;
+    text-align: center; */
+    text-align: center;
+    padding: 3em;
+}
+
+.container {
+    /* display: flex untuk memecah menjadi 2 sisi */
+    display: flex;
+    text-align: center;
+}
+
+.left {
+    /* flex-basis :50% untuk mengatur lebar bagian kiri */
+    flex-basis: 50%;
+    text-align: left;
+    height: 300px;
+    margin: 10px;
+}
+
+.right {
+    /* flex-basis :50% untuk mengatur lebar bagian kanan */
+    flex-basis: 50%;
+    margin: 10px;
+    text-align: left;
+    height: 300px;
+}
+
+.box {
+    height: 30px;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+/* bagian ini untuk atur skill ganti width nya */
+
+.html {
+    width: 80%;
+    height: 100%;
+    background-color: red;
+}
+
+
+/* bagian ini untuk atur skill ganti width nya */
+
+.js {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+}
+
+
+/* bagian ini untuk atur skill ganti width nya */
+
+.java {
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+}
+
+
+/* bagian ini untuk atur skill ganti width nya */
+
+.photoshop {
+    width: 50%;
+    height: 100%;
+    background-color: purple;
+}
+
+
+/* bagian ini untuk atur skill ganti width nya */
+
+.illustrator {
+    width: 15%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+/* bagian ini untuk atur skill ganti width nya */
+
+.indesign {
+    width: 35%;
+    height: 100%;
+    background-color: goldenrod;
+}
+
+.content3 {
+    background-color: white;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.art3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.hobbies {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.social-media {
+    display: inline;
+}
+
+.list-social {
+    display: inline;
+    list-style: none;
+}
+
+.list-social a {
+    text-decoration: none;
+}
+
+.icon-social {
+    height: 50px;
+    width: 50px;
+}
